@@ -8,7 +8,7 @@
     width: 700px;
     height: 500px;
     margin: 100px auto;
-    background: antiquewhite;
+    background-color:azure;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -59,17 +59,20 @@
 .slider .btns .dots .dot {
     width: 15px;
     height: 15px;
-    border: 2px solid #000000;
+    border: 2px solid cyan;
     border-radius: 50%;
     cursor: pointer;
 }
 
 .slider .btns .dots .dot.active {
-    background-color: #000000;
+    background-color: cyan;
 }
 
 
 .slider .btns .btn {
     padding: 12px 24px;
     cursor: pointer;
+    background-color:cyan;
+    border-radius: 10px;
+    border: cyan;
 }
